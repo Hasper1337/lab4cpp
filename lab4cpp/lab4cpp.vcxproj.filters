@@ -48,6 +48,12 @@
     <ClCompile Include="src\WindInstrument.cpp">
       <Filter>Исходные файлы\ClassNameCPP</Filter>
     </ClCompile>
+    <ClCompile Include="tests\test_static.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\test_shared.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Flute.h">

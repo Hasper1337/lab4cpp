@@ -132,6 +132,8 @@
     <ClCompile Include="src\SynthGuitar.cpp" />
     <ClCompile Include="src\Violin.cpp" />
     <ClCompile Include="src\WindInstrument.cpp" />
+    <ClCompile Include="tests\test_shared.cpp" />
+    <ClCompile Include="tests\test_static.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Flute.h" />

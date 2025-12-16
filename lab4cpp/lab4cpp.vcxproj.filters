@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\ClassNameCPP">
+      <UniqueIdentifier>{6e235d75-b75e-4549-9300-ecd69e0aab88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ClassNameH">
+      <UniqueIdentifier>{9caf17cc-23e7-4950-b186-8717bec4c5d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lab4cpp.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Flute.cpp">
+      <Filter>Исходные файлы\ClassNameCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Guitar.cpp">
+      <Filter>Исходные файлы\ClassNameCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IElectronicDevice.cpp">
+      <Filter>Исходные файлы\ClassNameCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MusicalInstrument.cpp">
+      <Filter>Исходные файлы\ClassNameCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StringInstrument.cpp">
+      <Filter>Исходные файлы\ClassNameCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SynthGuitar.cpp">
+      <Filter>Исходные файлы\ClassNameCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Violin.cpp">
+      <Filter>Исходные файлы\ClassNameCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindInstrument.cpp">
+      <Filter>Исходные файлы\ClassNameCPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Flute.h">
+      <Filter>Исходные файлы\ClassNameH</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Guitar.h">
+      <Filter>Исходные файлы\ClassNameH</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IElectronicDevice.h">
+      <Filter>Исходные файлы\ClassNameH</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MusicalInstrument.h">
+      <Filter>Исходные файлы\ClassNameH</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StringInstrument.h">
+      <Filter>Исходные файлы\ClassNameH</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SynthGuitar.h">
+      <Filter>Исходные файлы\ClassNameH</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Violin.h">
+      <Filter>Исходные файлы\ClassNameH</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WindInstrument.h">
+      <Filter>Исходные файлы\ClassNameH</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

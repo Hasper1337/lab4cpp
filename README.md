@@ -15,3 +15,24 @@
 [Источник](https://firststeps.ru/linux/r.php?5)
 
 ### Динамические
+Создание динамической библиотеки отличается от статической и имеет несколько методо создания (Для UNIX-систем и для Windows):
+#### Windows
+Для Windows необходимы танцы с бубном
+1) В заголовочные файлы `*.h` необходимо добавить следующий код
+
+```
+#if defined(_WIN32) || defined(_WIN64)
+  #if defined(LAB4_BUILD_DLL)
+    #define LAB4_API __declspec(dllexport)
+  #else
+    #define LAB4_API __declspec(dllimport)
+  #endif
+#else
+  #define LAB4_API
+#endif
+```
+2) Комплиция 
+#### UNIX-системы
+1) Компиляция файлов `g++ -fPIC -c src/StringInstrument.cpp`, но этот этап можно пропустить, об этом ниже\
+    `-fPIC` - позиционно-независимый код (Position-Independent Code)
+2) Для того, чтобы создать динамическую библиотеку надо использовать ключ -shared: `g++ -shared -o liblab4.so StringInstrument.o MusicalInstrument.o`, так же есть и второй способ объединяющий 1-й и 2-й этапы и выглядит он следующим образом `g++ -shared -fPIC src/*.cpp -o build/liblab4.so`, я выполню именно этим способом

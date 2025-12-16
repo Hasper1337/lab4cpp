@@ -27,7 +27,7 @@ MusicalInstrument& MusicalInstrument::operator=(const MusicalInstrument& other) 
 }
 
 void MusicalInstrument::tune() {
-    cout << "Настройка инструмента:" << name << endl;
+    cout << "Instrument setup:" << name << endl;
 }
 
 int MusicalInstrument::getTotalInstruments() {

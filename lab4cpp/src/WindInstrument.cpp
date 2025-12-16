@@ -7,7 +7,7 @@ WindInstrument::WindInstrument(const string& name, int year, const string& mater
 
 void WindInstrument::tune() {
     MusicalInstrument::tune();
-    cout << "Давление воздуха: " << airPressure << endl;
+    cout << "Air pressure: " << airPressure << endl;
 }
 
 void WindInstrument::setAirPressure(double pressure) { airPressure = pressure; }

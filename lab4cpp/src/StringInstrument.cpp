@@ -23,7 +23,7 @@ StringInstrument::~StringInstrument() {
 
 void StringInstrument::tune() {
     MusicalInstrument::tune();
-    cout << "Натяжение струн: " << tension << endl;
+    cout << "String tension: " << tension << endl;
 }
 
 int StringInstrument::getNumberOfStrings() const { return numberOfStrings; }
